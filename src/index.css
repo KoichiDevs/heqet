@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Albertus';
+    src: url('../fonts/Castoro.ttf');
+  }
+
+  @font-face {
+    font-family: 'Copper';
+    src: url('../fonts/Castoro.ttf');
+  }
+
+  .glow {
+    text-shadow: 0px 0px 25px #0059ff;
+  }
+}
+.pyramid-icon {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  transform: scale(1.5);
+  z-index: 1;
+}
