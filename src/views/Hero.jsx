@@ -45,9 +45,9 @@ const Hero = () => {
                 <div className="flex items-center">
   <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
   <div className="flex flex-col">
-  <h2 className="font-copper text-sm 1xl:text-sm">0/0 Tax</h2>
-  <h2 className="font-copper text-sm 1xl:text-sm">100 Million Supply</h2>
-  <h2 className="font-copper text-sm 1xl:text-sm">Burned LP</h2>
+  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm">0/0 Tax</h2>
+  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm">100 Million Supply</h2>
+  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm">Burned LP</h2>
 </div>
 
 </div>
