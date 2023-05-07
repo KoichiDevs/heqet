@@ -45,7 +45,7 @@ const Hero = () => {
                 <nav className="absolute w-full left-0 top-0 z-20 flex justify-between pointer-events-auto">
                     <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
 
-                    <h2 className='font-copper m-4 2xl:text-2xl'>{contractAddress}</h2>
+                    <h2 className='font-copper text-sm  2xl:text-xl'>{contractAddress}</h2>
 
                 </nav>
 
@@ -76,8 +76,8 @@ const Hero = () => {
                         <div className="flex items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer" onClick={handleCopy}>
                             
                         
-                            <p className="font-copper text-sm  2xl:text-xl">{contractAddress}</p>
-                            {debounce ? <BsClipboard2CheckFill /> : <BsClipboard className='' />}
+                            <p className="font-copper text-sm  1xl:text-sm">{contractAddress}</p>
+                            
                         </div>
                     </motion.div>
 
