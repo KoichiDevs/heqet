@@ -45,9 +45,12 @@ const Hero = () => {
                 <div className="flex items-center">
   <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
   <div className="flex flex-col">
-  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm">0/0 Tax</h2>
-  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm">100 Million Supply</h2>
-  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm">Burned LP</h2>
+  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm"><svg className="inline-block w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+    0/0 Tax0/0 Tax</h2>
+  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm"><svg className="inline-block w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+    0/0 Tax100 Million Supply</h2>
+  <h2 className="font-copper text-lg text-blue-600 1xl:text-sm"><svg className="inline-block w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+    0/0 TaxBurned LP</h2>
 </div>
 
 </div>
