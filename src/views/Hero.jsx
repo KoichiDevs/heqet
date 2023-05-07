@@ -6,7 +6,6 @@ import { FaTelegramPlane, FaMediumM } from 'react-icons/fa'
 import { SiTwitter, SiLinktree } from 'react-icons/si'
 import { MdEmail } from 'react-icons/md'
 import { BsClipboard, BsClipboard2CheckFill } from 'react-icons/bs'
-import ScrollingText from '../src/scene/ScrollingText';
 
 const Hero = () => {
 
@@ -73,11 +72,8 @@ const Hero = () => {
 </button>
 </a>
 
-<div className="scrollable-container">
-          <ScrollingText />
-        </div>
 
-                        <div className="flex items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer">
+<div className="flex flex-col items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer">
   <p className="font-copper text-sm 1xl:text-sm my-2">
     Seen by many as the Goddess of fertility, Heqet is probably the oldest representation of a frog humanity has ever seen. 
   </p>
@@ -97,6 +93,7 @@ const Hero = () => {
     Hail the amphibians, Hail Pepe, Hail Heqet.
   </p>
 </div>
+
                     </motion.div>
 
 
