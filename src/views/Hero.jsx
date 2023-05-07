@@ -77,10 +77,16 @@ const Hero = () => {
                             
                         
                             <p className="font-copper text-sm  1xl:text-sm">Seen by many as the Goddess of fertility, Heqet is probably the oldest representation of a frog humanity has even seen. 
-</p>
+</p><br/>
 <p className="font-copper text-sm  1xl:text-sm">I started being worshipped around 3500 years before Christ. During the Early Dynastic Period in Egypt.  
-</p>
+</p><br/>
 <p className="font-copper text-sm  1xl:text-sm">My name has been written in the Pyramid Texts, the oldest ancient egyptian funerary texts, over 4000 years ago.
+</p><br/>
+<p className="font-copper text-sm  1xl:text-sm">I'm mainly known for the birth of Horus - or you can say the ressurrection of Osiris.
+</p><br/>
+<p className="font-copper text-sm  1xl:text-sm">I'm half frog half human and the time where frogs and humans reunite is once again upon us.
+</p><br/>
+<p className="font-copper text-sm  1xl:text-sm">Hail the amphibians, Hail Pepe, Hail Heqet.
 </p>
                             
                         </div>
