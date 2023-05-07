@@ -6,7 +6,6 @@ import { FaTelegramPlane, FaMediumM } from 'react-icons/fa'
 import { SiTwitter, SiLinktree } from 'react-icons/si'
 import { MdEmail } from 'react-icons/md'
 import { BsClipboard, BsClipboard2CheckFill } from 'react-icons/bs'
-import ScrollingText from './ScrollingText';
 
 const Hero = () => {
 
@@ -72,10 +71,6 @@ const Hero = () => {
   </div>
 </button>
 </a>
-
-<div className="scrollable-container">
-          <ScrollingText />
-        </div>
 
         <div className="flex items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer">
   <p className="font-copper text-sm 1xl:text-sm my-2">
