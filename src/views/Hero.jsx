@@ -45,7 +45,9 @@ const Hero = () => {
                     <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
 
                     <h2 className='font-copper text-sm  1xl:text-sm'>Contract Address: {contractAddress}</h2>
-
+                    <h2 className='font-copper text-sm  1xl:text-sm'>0/0 Tax</h2>
+                    <h2 className='font-copper text-sm  1xl:text-sm'>100 Million Supply</h2>
+                    <h2 className='font-copper text-sm  1xl:text-sm'>Burned LP</h2>
                 </nav>
 
                 <PyramidIcon width={50} height={50}  className='text-3xl glow bottom-5 left-5 absolute' />
@@ -67,7 +69,7 @@ const Hero = () => {
                         
 
 
-<div className="flex flex-col items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer">
+<div className="flex flex-col items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto">
   <p className="font-copper text-sm 1xl:text-sm my-2">
     Seen by many as the Goddess of fertility, Heqet is probably the oldest representation of a frog humanity has ever seen. 
   </p>
