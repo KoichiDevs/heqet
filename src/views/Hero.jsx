@@ -44,9 +44,12 @@ const Hero = () => {
                 <nav className="absolute w-full left-0 top-0 z-20 flex justify-between pointer-events-auto">
                 <div className="flex items-center">
   <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
-  <h2 className='font-copper text-sm  1xl:text-sm'>0/0 Tax</h2>
-                    <h2 className='font-copper text-sm  1xl:text-sm'>100 Million Supply</h2>
-                    <h2 className='font-copper text-sm  1xl:text-sm'>Burned LP</h2>
+  <div className="flex flex-col">
+  <h2 className="font-copper text-sm 1xl:text-sm">0/0 Tax</h2>
+  <h2 className="font-copper text-sm 1xl:text-sm">100 Million Supply</h2>
+  <h2 className="font-copper text-sm 1xl:text-sm">Burned LP</h2>
+</div>
+
 </div>
 
                     <h2 className='font-copper text-sm  1xl:text-sm'>Contract Address: {contractAddress}</h2>
