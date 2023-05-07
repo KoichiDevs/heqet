@@ -42,15 +42,15 @@ const Hero = () => {
             <div className="absolute top-0 left-0 z-10 w-full h-full text-white font-albertus flex justify-center items-center pointer-events-none">
 
                 <nav className="absolute w-full left-0 top-0 z-20 flex justify-between pointer-events-auto">
-                    <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
-
-                    <div className='flex flex-col'>
-  <h2 className='font-copper text-sm 1xl:text-sm'>Contract Address: {contractAddress}</h2>
-  <h2 className='font-copper text-sm 1xl:text-sm'>0/0 Tax</h2>
-  <h2 className='font-copper text-sm 1xl:text-sm'>100 Million Supply</h2>
-  <h2 className='font-copper text-sm 1xl:text-sm'>Burned LP</h2>
+                <div className="flex items-center">
+  <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
+  <h2 className='font-copper text-sm  1xl:text-sm'>0/0 Tax</h2>
+                    <h2 className='font-copper text-sm  1xl:text-sm'>100 Million Supply</h2>
+                    <h2 className='font-copper text-sm  1xl:text-sm'>Burned LP</h2>
 </div>
 
+                    <h2 className='font-copper text-sm  1xl:text-sm'>Contract Address: {contractAddress}</h2>
+                    
                 </nav>
 
                 <PyramidIcon width={50} height={50}  className='text-3xl glow bottom-5 left-5 absolute' />
