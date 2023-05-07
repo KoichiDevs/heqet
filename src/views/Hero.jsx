@@ -45,7 +45,7 @@ const Hero = () => {
                 <nav className="absolute w-full left-0 top-0 z-20 flex justify-between pointer-events-auto">
                     <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
 
-                    <h2 className='font-copper text-sm  2xl:text-xl'>{contractAddress}</h2>
+                    <h2 className='font-copper text-sm  1xl:text-sm'>{contractAddress}</h2>
 
                 </nav>
 
@@ -73,10 +73,15 @@ const Hero = () => {
 </button>
 </a>
 
-                        <div className="flex items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer" onClick={handleCopy}>
+                        <div className="flex items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer">
                             
                         
-                            <p className="font-copper text-sm  1xl:text-sm">{contractAddress}</p>
+                            <p className="font-copper text-sm  1xl:text-sm">Seen by many as the Goddess of fertility, Heqet is probably the oldest representation of a frog humanity has even seen. 
+</p>
+<p className="font-copper text-sm  1xl:text-sm">I started being worshipped around 3500 years before Christ. During the Early Dynastic Period in Egypt.  
+</p>
+<p className="font-copper text-sm  1xl:text-sm">My name has been written in the Pyramid Texts, the oldest ancient egyptian funerary texts, over 4000 years ago.
+</p>
                             
                         </div>
                     </motion.div>
