@@ -10,7 +10,7 @@ import { BsClipboard, BsClipboard2CheckFill } from 'react-icons/bs'
 
 const Hero = () => {
 
-    const [contractAddress, setContract] = useState('0x000000000000000000000000000000000')
+    const [contractAddress, setContract] = useState('0x609F7405871D134BD383F31B3255bA91A0E82F16')
     const [debounce, setDebounce] = useState(false)
 
     const handleCopy = () => {
@@ -45,7 +45,7 @@ const Hero = () => {
                 <nav className="absolute w-full left-0 top-0 z-20 flex justify-between pointer-events-auto">
                     <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
 
-                    <h2 className='font-copper m-4 2xl:text-2xl'>Email Here</h2>
+                    <h2 className='font-copper m-4 2xl:text-2xl'>{contractAddress}</h2>
 
                 </nav>
 
@@ -86,26 +86,21 @@ const Hero = () => {
 
                 <div className="soc absolute text-white text-2xl bottom-4 right-4 gap-x-5 flex pointer-events-auto">
                     <button className='hover:scale-110'>
-                        <a href="#" className="" rel="noopener noreferrer">
+                        <a href="https://t.me/heqet_portal" className="" rel="noopener noreferrer">
                             <FaTelegramPlane />
                         </a>
                     </button>
 
                     <button className='hover:scale-110'>
-                        <a href="#" className="" rel="noopener noreferrer">
+                        <a href="https://twitter.com/Heqet_Erc20" className="" rel="noopener noreferrer">
                             <SiTwitter />
                         </a>
                     </button>
                     <button className='hover:scale-110'>
-                        <a href="#" className="" rel="noopener noreferrer">
+                        <a href="https://medium.com/@xkvltcf/heqet-the-godd-f65874a78dd8" className="" rel="noopener noreferrer">
                             <FaMediumM />
                         </a>
                     </button>
-<button className='hover:scale-110'>
-    <a href="#" className="" rel="noopener noreferrer">
-        <SiLinktree />
-    </a>
-</button>
                         <button className='hover:scale-110'>
                         <a href="mailto:contact@heqet.com" className="" rel="noopener noreferrer">
                             <MdEmail />
