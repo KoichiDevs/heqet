@@ -44,7 +44,7 @@ const Hero = () => {
                 <nav className="absolute w-full left-0 top-0 z-20 flex justify-between pointer-events-auto">
                     <img src="/logo.webp" alt="Logo" className="w-20 m-5 2xl:w-32 animate-pulse" />
 
-                    <h2 className='font-copper text-sm  1xl:text-sm'>{contractAddress}</h2>
+                    <h2 className='font-copper text-sm  1xl:text-sm'>Contract Address: {contractAddress}</h2>
 
                 </nav>
 
@@ -64,13 +64,7 @@ const Hero = () => {
 
 
                     <motion.div initial={{ y: 150, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 3.5, delay: 1, ease: [0.16, 0.77, 0.47, .97] }} className="pointer-events-auto">
-                        <a href="https://app.uniswap.org/#/swap?outputCurrency=0x0000000000000000000000000000">
-                        <button className="flex 2xl:w-[18rem] 2xl:h-[3.5rem] md:w-[14rem] w-[12rem] relative h-[2.7rem] mx-auto mt-8 group overflow-hidden transform hover:-translate-y-1 hover:scale-110 transition-all duration-300" >
-  <div className="w-full h-full border-t-[1px] boder-white border-b-[1px] flex items-center justify-center font-copper group-hover:bg-white/30 group-hover:font-bold transition-bg ease-in-out duration-100 2xl:text-xl">
-    <h2>BUY TOKEN</h2>
-  </div>
-</button>
-</a>
+                        
 
 
 <div className="flex flex-col items-center mt-2 justify-center gap-x-2 pointer-events-auto w-fit mx-auto cursor-pointer">
@@ -93,7 +87,13 @@ const Hero = () => {
     Hail the amphibians, Hail Pepe, Hail Heqet.
   </p>
 </div>
-
+<a href="https://app.uniswap.org/#/swap?outputCurrency=0x609F7405871D134BD383F31B3255bA91A0E82F16">
+                        <button className="flex 2xl:w-[18rem] 2xl:h-[3.5rem] md:w-[14rem] w-[12rem] relative h-[2.7rem] mx-auto mt-8 group overflow-hidden transform hover:-translate-y-1 hover:scale-110 transition-all duration-300" >
+  <div className="w-full h-full border-t-[1px] boder-white border-b-[1px] flex items-center justify-center font-copper group-hover:bg-white/30 group-hover:font-bold transition-bg ease-in-out duration-100 2xl:text-xl">
+    <h2>BUY TOKEN</h2>
+  </div>
+</button>
+</a>
                     </motion.div>
 
 
